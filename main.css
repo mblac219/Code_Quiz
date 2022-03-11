@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
+/* The style for the background of the HTML*/
 
 body {
     margin: 0;
@@ -13,11 +14,7 @@ body {
     height: 100vh;
     width: 100vw;
 }
-/* container for questionaire box */
- 
-
-
-
+ /* container for questionaire box */ 
 
 .container { 
     width: 500px;
@@ -27,28 +24,34 @@ body {
     border-radius: 10px;
     
 } 
-
-
+/* put boxes in a grid formation*/
 .grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 5px;
     margin: 15px;
 }
+/* style start and next buttons*/
+
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* style buttons*/
+
 .button {
     border-radius: 5px;
     padding: 10px;
     width: 150px;
 }
+/* hover over answer, start and next button*/
+
 button:hover {
     border-color: black;
     border: 2px;
 }
+/* hiding questions until game starts*/
 .hide {
     display:  none;
 }
